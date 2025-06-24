@@ -47,7 +47,12 @@ img {
 	max-width: 100%;
 	height: auto;
 }
-
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* ensure it stays on top */
+  background-color: white; /* or whatever matches your design */
+}
 header,
 main,
 footer {
@@ -195,4 +200,10 @@ button {
 	:root {
 		font-size: 1.1rem;
 	}
+}
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* ensure it stays on top */
+  background-color: white; /* or whatever matches your design */
 }
